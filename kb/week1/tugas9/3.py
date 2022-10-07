@@ -1,0 +1,5 @@
+print("FARENHEIT to CELCIUS")
+print("Masukkan Nilai Farenheit : ", end='', flush=True)
+f = float(input())
+c = (f - 32) * (float(5) / 9)
+print(str(f) + " Farenheit : " + str(c) + " Celcius")

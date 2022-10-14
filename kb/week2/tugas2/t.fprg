@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 09:34:46 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswOToyNzo1OCBBTTsyMjM3"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswOToyODowMCBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MDk6MjI6MTUgQU07bHMuZnByZzs1Mzc2"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswOTozNDo0NiBBTTsxOzIzNDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="phi, r, t, l, v" type="Integer" array="False" size=""/>
+            <assign variable="phi" expression="22/7"/>
+            <output expression="&quot;Masukkan Radius : &quot;" newline="False"/>
+            <input variable="r"/>
+            <output expression="&quot;Masukkan Tinggi : &quot;" newline="False"/>
+            <input variable="t"/>
+            <assign variable="l" expression="(2 * phi * r * t) + (2 * phi * r * r)"/>
+            <assign variable="v" expression="phi * r * r * t"/>
+            <output expression="&quot;Luas Permukaan : &quot; &amp; l" newline="True"/>
+            <output expression="&quot;Volume: &quot; &amp; v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

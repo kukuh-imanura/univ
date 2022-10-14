@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 11:54:10 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMTo1MToyMSBBTTsyMjE3"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMTo1MToyNCBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MTE6NDM6NDYgQU07My4wLmZwcmc7NTI5Mw=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMTo1NDoxMCBBTTsxOzIzMjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="w, j, k1, k2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Kecepatan (Km/h) : &quot;" newline="False"/>
+            <input variable="k1"/>
+            <assign variable="k2" expression="k1 / 60"/>
+            <output expression="&quot;Kecepatan : &quot; &amp;k2 &amp;&quot;Km/m&quot;" newline="True"/>
+            <output expression="&quot;Masukkan Jarak (Km) : &quot;" newline="False"/>
+            <input variable="j"/>
+            <assign variable="w" expression="j/k2"/>
+            <output expression="&quot;Waktu : &quot; &amp;w &amp;&quot;Menit&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

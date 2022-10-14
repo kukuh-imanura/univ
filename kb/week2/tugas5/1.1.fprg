@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 12:39:38 PM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjozNzo1MyBQTTsyMjQy"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjozNzo1NSBQTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MTI6Mjc6MTAgUE07MS4wLmZwcmc7NTMyNA=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjozOTozOCBQTTsxOzIzNTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, j1, j2, s" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Jarak Peta (cm) : &quot;" newline="False"/>
+            <input variable="p"/>
+            <output expression="&quot;Masukkan Jarak Sebenarnya (Km) : &quot;" newline="False"/>
+            <input variable="j1"/>
+            <assign variable="j2" expression="j1 * 100000"/>
+            <output expression="&quot;Jarak Sebenarnya : &quot; &amp;j2 &amp;&quot;cm&quot;" newline="True"/>
+            <assign variable="s" expression="j2 / p"/>
+            <output expression="&quot;Skala 1 : &quot; &amp;s &amp;&quot;cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

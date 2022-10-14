@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 12:45:14 PM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjo0MDowNSBQTTsyMjMz"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjo0MDowNyBQTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MTI6Mzc6NTMgUE07MS4xLmZwcmc7NTMyNA=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjo0NToxNCBQTTsxOzIzNDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, j1, j2, s" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="5000000"/>
+            <assign variable="p" expression="20"/>
+            <output expression="&quot;Skala 1 : &quot; &amp;s &amp;&quot;cm&quot;" newline="True"/>
+            <output expression="&quot;Jarak Peta : &quot; &amp;p &amp;&quot;cm&quot;" newline="True"/>
+            <assign variable="j1" expression="s * p"/>
+            <output expression="&quot;Jarak : &quot; &amp;j1 &amp;&quot;cm&quot;" newline="True"/>
+            <assign variable="j2" expression="j1 / 100000"/>
+            <output expression="&quot;Jarak : &quot; &amp;j2 &amp;&quot;Km&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

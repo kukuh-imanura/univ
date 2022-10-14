@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 08:47:35 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODo0NToxMyBBTTsyMjI3"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODo0NTozMCBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MDc6NDY6MjIgQU07cGVyc2VnaS5mcHJnOzU5MDc="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODo0NzozNSBBTTsxOzIzNDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, l, v" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Rusuk : &quot;" newline="False"/>
+            <input variable="r"/>
+            <assign variable="l" expression="6 * (r * r)"/>
+            <assign variable="v" expression="r * r * r"/>
+            <output expression="&quot;Luas Permukaan : &quot; &amp; l" newline="True"/>
+            <output expression="&quot;Volume: &quot; &amp; v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

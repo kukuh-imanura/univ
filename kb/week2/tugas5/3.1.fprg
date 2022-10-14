@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 12:54:32 PM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjo1MjozMyBQTTsyMjM3"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjo1MjozNSBQTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MTI6NDg6NDEgUE07My4wLmZwcmc7NTMyOA=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjo1NDozMiBQTTsxOzIzNDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, j, s" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input Perbandingan (Ruas) : &quot;" newline="False"/>
+            <input variable="p"/>
+            <output expression="&quot;Input Skala (Km) 1 Ruas : &quot;" newline="False"/>
+            <input variable="s"/>
+            <assign variable="j" expression="s * p"/>
+            <output expression="&quot;Jarak : &quot; &amp;j &amp;&quot;Km&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 08:55:33 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODo1MDoyMiBBTTsyMjIz"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODo1MDoyNCBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MDg6NDU6MTMgQU07ay5mcHJnOzUyNjI="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODo1NTozMyBBTTsxOzIzMzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, lr, t, l, v" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Panjang : &quot;" newline="False"/>
+            <input variable="p"/>
+            <output expression="&quot;Masukkan Lebar : &quot;" newline="False"/>
+            <input variable="lr"/>
+            <output expression="&quot;Masukkan Tinggi : &quot;" newline="False"/>
+            <input variable="t"/>
+            <assign variable="l" expression="2 * (p * lr) + 2 * (p *t) + 2 * (lr * t)"/>
+            <assign variable="v" expression="p * lr * t"/>
+            <output expression="&quot;Luas Permukaan : &quot; &amp; l" newline="True"/>
+            <output expression="&quot;Volume: &quot; &amp; v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 11:10:11 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMTowNzoyMCBBTTsyMjE3"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMTowNzoyMiBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MTE6MDM6MDcgQU07MS4wLmZwcmc7NTI4Mw=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMToxMDoxMSBBTTsxOzIzMTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="w, j, k" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Waktu (Jam) : &quot;" newline="False"/>
+            <input variable="w"/>
+            <output expression="&quot;Masukkan Jarak (Km) : &quot;" newline="False"/>
+            <input variable="j"/>
+            <assign variable="k" expression="j/w"/>
+            <output expression="&quot;Kecepatan : &quot; &amp;k &amp; &quot;km/h&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

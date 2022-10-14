@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 12:27:04 PM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjoyNDoxNSBQTTsyMjM2"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjoyNDoxOCBQTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MTI6MTc6NDYgUE07My4wLmZwcmc7NTMyOQ=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjoyNzowNCBQTTsyOzIzNDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="j, w, d1, d2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input Debit : (M3/s) &quot;" newline="False"/>
+            <input variable="d1"/>
+            <assign variable="d2" expression="(d1 * 1000)/60"/>
+            <output expression="&quot;Debit : &quot; &amp;d2 &amp;&quot;L/m&quot;" newline="True"/>
+            <output expression="&quot;Input Waktu : (Menit) &quot;" newline="False"/>
+            <input variable="w"/>
+            <assign variable="j" expression="d2 * w"/>
+            <output expression="&quot;Jumlah : &quot; &amp;j &amp;&quot;Liter&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

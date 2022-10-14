@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 09:27:12 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswOToyMjoxNSBBTTsyMjI1"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswOToyMjoxNyBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MDk6MTM6MzQgQU07NDYyMA=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswOToyNzoxMiBBTTsxOzIzMzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s, t, l, v" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Sisi : &quot;" newline="False"/>
+            <input variable="s"/>
+            <output expression="&quot;Masukkan Tinggi : &quot;" newline="False"/>
+            <input variable="t"/>
+            <assign variable="l" expression="2 * (s * t)"/>
+            <assign variable="v" expression="(s * s * t )/6"/>
+            <output expression="&quot;Luas Permukaan : &quot; &amp; l" newline="True"/>
+            <output expression="&quot;Volume: &quot; &amp; v" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

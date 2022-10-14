@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 12:08:01 PM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjowMDoxNCBQTTsyMjI5"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjowMDoxNiBQTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MTE6MDM6MDcgQU07MS4wLmZwcmc7NTI5NQ=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjowODowMSBQTTsxOzIzNDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="j1, j2, w1, w2, d" type="Integer" array="False" size=""/>
+            <assign variable="j1" expression="125"/>
+            <assign variable="w1" expression="50"/>
+            <output expression="&quot;Jumlah : &quot; &amp;j1 &amp;&quot;Liter&quot;" newline="True"/>
+            <assign variable="j2" expression="j1 * 1000"/>
+            <output expression="&quot;Jumlah : &quot; &amp;j2 &amp;&quot;Cm3&quot;" newline="True"/>
+            <output expression="&quot;Waktu : &quot; &amp;w1 &amp;&quot;Menit&quot;" newline="True"/>
+            <assign variable="w2" expression="w1 * 60"/>
+            <output expression="&quot;Waktu : &quot; &amp;w2 &amp;&quot;Detik&quot;" newline="True"/>
+            <assign variable="d" expression="j2/w2"/>
+            <output expression="&quot;Debit : &quot; &amp;d &amp;&quot;cm3/s&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

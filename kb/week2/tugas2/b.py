@@ -1,0 +1,10 @@
+print("Masukkan Panjang : ", end='', flush=True)
+p = int(input())
+print("Masukkan Lebar : ", end='', flush=True)
+lr = int(input())
+print("Masukkan Tinggi : ", end='', flush=True)
+t = int(input())
+l = 2 * (p * lr) + 2 * (p * t) + 2 * (lr * t)
+v = p * lr * t
+print("Luas Permukaan : " + str(l))
+print("Volume: " + str(v))

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 12:35:48 PM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjoyNzoxMCBQTTsyMjM0"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDsxMjozNTo0OCBQTTsxOzIzNTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, j1, j2, s" type="Integer" array="False" size=""/>
+            <assign variable="p" expression="10"/>
+            <assign variable="j1" expression="20"/>
+            <output expression="&quot;Jarak Peta : &quot; &amp;p &amp;&quot;cm&quot;" newline="True"/>
+            <output expression="&quot;Jarak Sebenarnya : &quot; &amp;j1 &amp;&quot;km&quot;" newline="True"/>
+            <assign variable="j2" expression="j1 * 100000"/>
+            <output expression="&quot;Jarak Sebenarnya : &quot; &amp;j2 &amp;&quot;cm&quot;" newline="True"/>
+            <assign variable="s" expression="j2 / p"/>
+            <output expression="&quot;Skala 1 : &quot; &amp;s &amp;&quot;cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

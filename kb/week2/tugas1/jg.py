@@ -1,0 +1,10 @@
+print("Masukkan Sisi A & C : ", end='', flush=True)
+a = int(input())
+print("Masukkan Sisi B & D : ", end='', flush=True)
+b = int(input())
+print("Masukkan Tinggi : ", end='', flush=True)
+t = int(input())
+keliling = 2 * (a + b)
+luas = a * t
+print("Keliling : " + str(keliling))
+print("Luas: " + str(luas))

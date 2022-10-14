@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 08:21:23 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODoxNjo1MiBBTTsyMjI4"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODoxNjo1NSBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MDg6MTA6MDYgQU07cy5mcHJnOzUyNzA="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODoyMToyMyBBTTsxOzIzMzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s, d, keliling, luas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Sisi : &quot;" newline="False"/>
+            <input variable="s"/>
+            <output expression="&quot;Masukkan Diagonal : &quot;" newline="False"/>
+            <input variable="d"/>
+            <assign variable="keliling" expression="4 * s"/>
+            <assign variable="luas" expression="(d * d)/2"/>
+            <output expression="&quot;Keliling : &quot; &amp; keliling" newline="True"/>
+            <output expression="&quot;Luas: &quot; &amp; luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

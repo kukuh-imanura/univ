@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 07:55:20 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswNzo0NjoyMiBBTTsyMjI3"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswNzo1NToyMCBBTTsxOzIzMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sisi, keliling, luas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Sisi : &quot;" newline="False"/>
+            <input variable="sisi"/>
+            <assign variable="keliling" expression="4 * sisi"/>
+            <assign variable="luas" expression="sisi * sisi"/>
+            <output expression="&quot;Keliling : &quot; &amp; keliling" newline="True"/>
+            <output expression="&quot;Luas: &quot; &amp; luas" newline="True"/>
+        </body>
+    </function>
+    <function name="persegipanjang" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

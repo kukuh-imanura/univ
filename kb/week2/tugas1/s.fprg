@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 08:22:23 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODoxMDowNiBBTTsyMjIx"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODoxMDozNiBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MDg6MDE6MzIgQU07amcuZnByZzs1MzU2"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswODoyMjoyMyBBTTsyOzIzMzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, t, keliling, luas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Sisi A : &quot;" newline="False"/>
+            <input variable="a"/>
+            <output expression="&quot;Masukkan Sisi B : &quot;" newline="False"/>
+            <input variable="b"/>
+            <output expression="&quot;Masukkan Sisi C : &quot;" newline="False"/>
+            <input variable="c"/>
+            <output expression="&quot;Masukkan Tinggi : &quot;" newline="False"/>
+            <input variable="t"/>
+            <assign variable="keliling" expression="a + b + c"/>
+            <assign variable="luas" expression="(a * t)/2"/>
+            <output expression="&quot;Keliling : &quot; &amp; keliling" newline="True"/>
+            <output expression="&quot;Luas: &quot; &amp; luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

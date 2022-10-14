@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-14 07:55:52 AM"/>
+        <attribute name="created" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswNzo0NjoyMiBBTTsyMjI3"/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswNzo1NTozOCBBTTsxO0FTVVM7VEVBTU9TLVBDOzIwMjItMTAtMTQ7MDc6NDY6MjIgQU07NDYyOA=="/>
+        <attribute name="edited" value="QVNVUztURUFNT1MtUEM7MjAyMi0xMC0xNDswNzo1NTo1MiBBTTsyOzIzMzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, l, keliling, luas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Panjang : &quot;" newline="False"/>
+            <input variable="p"/>
+            <output expression="&quot;Masukkan Lebar : &quot;" newline="False"/>
+            <input variable="l"/>
+            <assign variable="keliling" expression="2*(p+l)"/>
+            <assign variable="luas" expression="p * l"/>
+            <output expression="&quot;Keliling : &quot; &amp; keliling" newline="True"/>
+            <output expression="&quot;Luas: &quot; &amp; luas" newline="True"/>
+        </body>
+    </function>
+    <function name="persegipanjang" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

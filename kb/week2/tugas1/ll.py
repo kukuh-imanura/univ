@@ -1,0 +1,12 @@
+print("Masukkan Sisi A & D : ", end='', flush=True)
+a = int(input())
+print("Masukkan Sisi B & C : ", end='', flush=True)
+b = int(input())
+print("Masukkan Diagonal 1 : ", end='', flush=True)
+d1 = int(input())
+print("Masukkan Diagonal 2 : ", end='', flush=True)
+d2 = int(input())
+keliling = 2 * (a + b)
+luas = float(d1 * d2) / 2
+print("Keliling : " + str(keliling))
+print("Luas: " + str(luas))
